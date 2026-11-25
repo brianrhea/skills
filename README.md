@@ -1,5 +1,7 @@
 # Brian Rhea's Product Skills
 
+[![skills.sh](https://skills.sh/b/brianrhea/skills)](https://skills.sh/brianrhea/skills)
+
 Skills for product people and their agents.
 
 Skills that teach Claude Code, Codex and GitHub Copilot to do market research and Jobs to Be Done: plan interviews, analyze transcripts, find the themes in a pile of tickets and calls, size up the competition, and turn what customers said into job maps, priorities and copy.
@@ -8,7 +10,17 @@ You still talk to your customers. The agent does the prep, the synthesis and the
 
 ## Install
 
-<details open>
+One command, for Claude Code, Cursor, Codex, Copilot and most other agents:
+
+```bash
+npx skills add brianrhea/skills
+```
+
+Install the whole set. The skills share one set of scripts, in `evidence`, that check every quote against its source.
+
+Prefer your agent's own plugin system? These install the same skills as a managed plugin:
+
+<details>
 <summary><strong>Claude Code</strong></summary>
 
 ```bash
