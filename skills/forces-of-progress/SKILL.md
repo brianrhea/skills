@@ -65,4 +65,5 @@ Show "Interviews" as a fraction such as 6/8. Give up to three quotes per force, 
 - Counts come from the interviews. Never estimate how common a force is in the market.
 - Keep the forces distinct. A worry about migration is an anxiety, while "we have always used spreadsheets" is a habit, even when one customer says both in a breath.
 - Recommendations at the end must each point to a force in the tables.
-- Carry quotes over unchanged from the summaries.
+- Carry quotes over unchanged from the summaries. If any summary is marked "Not script-verified", or you add a quote of your own, check it with the evidence skill's script first. Its folder is next to this one.
+- For more than about ten interviews, write one evidence record per force and get the counts from the evidence skill's `count.py`, not from your own tally.

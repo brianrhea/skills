@@ -55,7 +55,7 @@ If there is no research at all, say that the statements will be hypotheses, draf
 - Holds one job. Split statements joined by "and".
 - Would have been true ten years ago.
 - Could be done with at least two different kinds of solution.
-- Is supported by a quote.
+- Is supported by a quote, checked against its source with the evidence skill's script when the quote is new. Its folder is next to this one.
 
 Rewrite statements that fail, and show the original beside the rewrite so the user can see what changed.
 

@@ -1,8 +1,8 @@
 {
   "name": "brianrhea-skills",
   "displayName": "Brian Rhea's Product Skills",
-  "version": "0.2.1",
-  "description": "Jobs to Be Done customer research skills: a guided starting point, interview guides, transcript analysis, Forces of Progress, job statements, job maps, outcome surveys and copywriting.",
+  "version": "0.3.0",
+  "description": "Market research and Jobs to Be Done skills: interview guides, transcript analysis, voice of customer, competitive analysis, Forces of Progress, job statements, job maps, outcome surveys and copywriting, with every quote checked against its source.",
   "author": {
     "name": "Brian Rhea",
     "url": "https://brianrhea.com"
@@ -11,22 +11,28 @@
   "repository": "https://github.com/brianrhea/skills",
   "license": "MIT",
   "keywords": [
+    "competitive-analysis",
+    "copywriting",
+    "customer-research",
+    "forces-of-progress",
+    "interviews",
+    "job-map",
     "jobs-to-be-done",
     "jtbd",
-    "customer-research",
-    "interviews",
-    "forces-of-progress",
-    "job-map",
-    "copywriting"
+    "market-research",
+    "voice-of-customer"
   ],
   "skills": [
     "./skills/ask-brian",
     "./skills/interview-guide",
     "./skills/interview-analysis",
+    "./skills/voice-of-customer",
+    "./skills/competitive-analysis",
     "./skills/forces-of-progress",
     "./skills/job-statements",
     "./skills/job-map",
     "./skills/outcome-survey",
-    "./skills/copywriting"
+    "./skills/copywriting",
+    "./skills/evidence"
   ]
 }

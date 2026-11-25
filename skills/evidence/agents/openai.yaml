@@ -1,0 +1,3 @@
+interface:
+  display_name: "Evidence"
+  short_description: "Check quotes against sources and count themes with scripts"

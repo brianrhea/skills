@@ -4,14 +4,21 @@
     "name": "Brian Rhea",
     "url": "https://brianrhea.com"
   },
-  "description": "Brian Rhea's Jobs to Be Done skills for product people and their agents.",
+  "description": "Brian Rhea's product skills: market research and Jobs to Be Done for product people and their agents.",
   "plugins": [
     {
       "name": "brianrhea-skills",
       "source": "./",
-      "description": "Jobs to Be Done customer research skills: interview guides, transcript analysis, Forces of Progress, job statements, job maps, outcome surveys and copywriting.",
+      "description": "Market research and Jobs to Be Done skills: interview guides, transcript analysis, voice of customer, competitive analysis, Forces of Progress, job statements, job maps, outcome surveys and copywriting.",
       "category": "product",
-      "keywords": ["jobs-to-be-done", "jtbd", "customer-research", "product", "skills"]
+      "keywords": [
+        "customer-research",
+        "jobs-to-be-done",
+        "jtbd",
+        "market-research",
+        "product",
+        "skills"
+      ]
     }
   ]
 }

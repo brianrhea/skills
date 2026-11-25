@@ -23,7 +23,7 @@ Every finding carries a quote copied character for character from the transcript
 - Never paraphrase inside quotation marks, tidy grammar or merge two remarks.
 - Trim with an ellipsis only where words are removed.
 - A finding you cannot quote goes in the "Assumptions" section, worded as a question for the next interview.
-- Quote the customer only. The interviewer's words are not evidence.
+- Quote the customer only. The interviewer's words are not evidence, and this is the most common mistake: a question the interviewer asked ends up quoted as the customer's view.
 
 ## Steps
 
@@ -80,6 +80,6 @@ Leave a timeline stage empty and say "not covered" when the interview did not re
 
 ## Check before finishing
 
-- Search the transcript for three of your quotes and confirm they match exactly.
+- Every quote has been checked by script. Follow the evidence skill, whose folder is next to this one: prepare the transcript with `prepare.py`, naming the interviewer, write your findings as evidence records, and run `verify_quotes.py` until each one passes or is removed. Without Python, reread the transcript for each quote and mark the summary "Not script-verified".
 - The summary describes the customer's situation. If the product is the subject of most sentences, rewrite.
 - Events are dated or ordered wherever the customer gave timing.

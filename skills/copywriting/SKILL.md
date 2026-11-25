@@ -11,7 +11,7 @@ Write copy that describes the reader's situation in the words customers used. Wh
 
 The user should never have to create folders, rename files or run another skill first.
 
-- **Input.** In order of usefulness: `research/forces.md`, `research/job-statements.md`, `research/job-map.md`, and the summaries in `research/interviews/` for quotes. If there are interview summaries and no forces diagram, build the diagram first by following the forces-of-progress skill. Also read the user's existing copy if they share it or give its address, so you know what the product actually does.
+- **Input.** In order of usefulness: `research/forces.md`, `research/job-statements.md`, `research/job-map.md`, the summaries in `research/interviews/` for quotes, and `research/voc/report.md` for the customers' vocabulary. If there are interview summaries and no forces diagram, build the diagram first by following the forces-of-progress skill. Also read the user's existing copy if they share it or give its address, so you know what the product actually does.
 - **Workspace.** Save output in a `research/` folder in the current project, creating it if it does not exist. If you cannot write files, give the full output in your reply and say that it was not saved.
 - **Context.** Read `research/context.md` if it exists. If you need the product, the buyer or the decision being studied and the file does not have them, ask once and save the answers there.
 - **Finish.** Reply with a short summary of what you wrote, where it was saved, and the one next step you recommend. Offer to do that step.
@@ -96,4 +96,5 @@ Every claim with no research behind it, and every NEEDS ANSWER.
 
 - The piece leads with the force that matches the reader's stage.
 - No line promises something the user has not confirmed the product does.
+- Every customer quote in the source notes passes the evidence skill's quote check. Its folder is next to this one.
 - Read the lead line as the customer. If they would not say it that way, rewrite it.

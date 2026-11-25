@@ -28,7 +28,9 @@ Jobs to Be Done research is the path these skills cover today. Before describing
 | The user has | Next step | Skill |
 | --- | --- | --- |
 | Nothing yet, or only an idea of who to talk to | Plan the interviews | interview-guide |
-| Transcripts without summaries | Summarize each one | interview-analysis |
+| A few interview transcripts without summaries | Summarize each one | interview-analysis |
+| A large pile of feedback: tickets, sales calls, survey comments, cancellations, deal notes | Find the themes, with checked quotes and counts | voice-of-customer |
+| A question about competitors or what customers use instead | Map the alternatives and profile competitors | competitive-analysis |
 | Three or more summaries | Find the pattern across them | forces-of-progress |
 | A forces diagram | Name the jobs | job-statements |
 | A core job | Map its steps and outcomes | job-map |
@@ -48,6 +50,8 @@ Keep `research/README.md` current after every step, so the user and any later se
 | Step | Status | File |
 | --- | --- | --- |
 | Interview guide | done | interview-guide.md |
+| Feedback themes | 412 tickets, 3 months old | voc/report.md |
+| Competitors | 4 profiled | competitors/ |
 | Interviews analyzed | 5 of 8 | interviews/ |
 | Forces of Progress | from 5 interviews, out of date | forces.md |
 | Job statements | not started | |
@@ -64,4 +68,5 @@ Mark a file "out of date" when something it depends on has changed since it was 
 
 - When the user has no research and wants output anyway, say plainly that the result will be a hypothesis. Then help them. The fastest honest route is usually an interview guide and five conversations.
 - Never invent customers, interviews or quotes to fill a gap in the path.
+- Findings from tickets, reviews and public pages are hypotheses. When the next step is a decision that rests on them, recommend confirming with a few interviews first.
 - Recommend one next step at a time.
