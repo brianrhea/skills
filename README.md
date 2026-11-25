@@ -97,7 +97,7 @@ Each works on its own. If one needs something an earlier step would have produce
 | Skill | What it does | Guide |
 | --- | --- | --- |
 | **Start here** | | |
-| [ask-brian](skills/ask-brian/SKILL.md) | Works out where you are, says which skill fits, and does the next step. | [Jobs to Be Done](https://brianrhea.com/jobs-to-be-done/) |
+| [ask-brian](skills/ask-brian/SKILL.md) | Asks where you are starting from (an idea, a business with customer data, or a new market), then does the next step. | [Jobs to Be Done](https://brianrhea.com/jobs-to-be-done/) |
 | **Market research** | | |
 | [interview-guide](skills/interview-guide/SKILL.md) | Builds a screener and a timeline-based discussion guide for switch interviews. | [Customer research](https://brianrhea.com/customer-research/) |
 | [interview-analysis](skills/interview-analysis/SKILL.md) | Summarizes one transcript: timeline, struggling moments and forces, each with a quote. | [Customer research](https://brianrhea.com/customer-research/) |

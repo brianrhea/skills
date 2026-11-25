@@ -33,7 +33,7 @@ Work down this list and stop at the first that applies.
 3. **Read the reference file for each source type** in the corpus: `references/tickets.md`, `calls.md`, `surveys.md`, `churn.md`, `win-loss.md` or `reviews.md`. Each says what that source is good for and what it distorts.
 4. **Extract.** One document or small batch at a time, write records to `research/voc/evidence.jsonl`. For each thing a customer said that matters, record the verbatim quote, a `kind`, the `source` type, and a short `note`. Do not assign themes yet.
 5. **Verify.** Run `verify_quotes.py`. Fix or drop every record that fails.
-6. **Draft themes from a sample.** Read up to about fifty verified records spread across sources. Propose 8 to 15 themes named in the customers' words, each with a one-line definition and an example. Show them to the user and ask what to rename, merge or split. This is the step where their judgement adds most.
+6. **Draft themes from a sample.** Read up to about fifty verified records spread across sources. Propose 8 to 15 themes named in the customers' words, each with a one-line definition and an example. Show them to the user and ask what to rename, merge or split. Ask this in plain text and let them answer in their own words; do not turn it into a multiple-choice question. This is the step where their judgement adds most.
 7. **Fix the themes.** Save them to `research/voc/themes.md`. Then give every record a `theme` from that list, using `other` when nothing fits. If `other` passes about a tenth of the records, a theme is missing; add it and recode.
 8. **Count.** Run `count.py --by theme`, and again with `--split source`.
 9. **Write the report.**

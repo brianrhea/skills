@@ -19,7 +19,7 @@ It produces two things: a map of the alternatives, built from your research, and
 ## Part 1: What customers hire instead
 
 1. Look in `research/` for what customers have named: tools, workarounds and old habits in interview summaries, the forces diagram and `research/voc/`. Collect each with its quote.
-2. If there is no research, ask the user two questions: what were your last few customers using before, and what do people who do not buy end up doing? Mark every answer as the user's belief, to be checked in interviews.
+2. If there is no research, ask the user two questions in plain text, with no options offered: what were your last few customers using before, and what do people who do not buy end up doing? Mark every answer as the user's belief, to be checked in interviews.
 3. Include the alternatives that are not products: doing it by hand, a spreadsheet, hiring someone, putting up with it.
 4. Write `research/competitors/alternatives.md`:
 
@@ -34,7 +34,7 @@ The rows with the most evidence are your real competition, whatever category the
 
 ## Part 2: What named competitors publish
 
-Profile three to five competitors: the ones customers named, then any the user adds.
+Profile three to five competitors: the ones customers named, then any the user adds. When there are more candidates than that, ask which to profile as a multiple-select choice, through your environment's question tool if it has one (`AskUserQuestion` in Claude Code) or as a numbered list.
 
 For each, read what the company itself publishes, in this order: home page, pricing, product or features pages, changelog or release notes, documentation, customer stories, careers page. `references/public-sources.md` says what each page tells you and what you may and may not read.
 

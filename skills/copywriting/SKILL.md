@@ -22,6 +22,8 @@ If there is no research, do not write from the product description alone. Tell t
 
 ## First, settle two things
 
+Both are choices between known options, and so is the formula in the next section. Ask a choice between known options through your environment's question tool if it has one (`AskUserQuestion` in Claude Code), or as a short numbered list. Ask anything about the user's product or customers in plain text, with no options offered.
+
 1. **The piece.** Homepage, landing page, email, ad, LinkedIn post, sales one-pager, onboarding screen or something else. If the user did not say, ask.
 2. **The reader's stage.** Where is the person reading this in the buying timeline? This decides which force leads.
 

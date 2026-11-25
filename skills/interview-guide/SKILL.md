@@ -23,6 +23,8 @@ You need three things. Read `research/context.md` first. Ask for whichever are s
 2. Who makes the buying decision.
 3. The decision to understand: why people bought, why they switched away, or why they considered it and stayed put.
 
+The third is a choice between known options. The first two are the user's own words. Ask a choice between known options through your environment's question tool if it has one (`AskUserQuestion` in Claude Code), or as a short numbered list. Ask anything about the user's product or customers in plain text, with no options offered.
+
 ## What to produce
 
 Write to `research/interview-guide.md`.
