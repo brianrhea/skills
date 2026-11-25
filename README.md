@@ -98,7 +98,7 @@ Each works on its own. If one needs something an earlier step would have produce
 | [job-map](skills/job-map/SKILL.md) | Maps a job across the eight universal steps with outcome statements. | [Job maps](https://brianrhea.com/job-map/) |
 | [outcome-survey](skills/outcome-survey/SKILL.md) | Writes an importance and satisfaction survey, then scores the responses. | [Jobs to Be Done](https://brianrhea.com/jobs-to-be-done/) |
 | **Put it to work** | | |
-| [copywriting](skills/copywriting/SKILL.md) | Writes homepages, emails, ads and onboarding copy from your research, with the source beside each line. | [Website copy](https://brianrhea.com/website-copy/) |
+| [copywriting](skills/copywriting/SKILL.md) | Writes homepages, emails, ads, LinkedIn posts and onboarding copy from your research, using formulas such as BAB and PASTOR, with the source beside each line. | [Copywriting](https://brianrhea.com/copywriting/) |
 | **Under the hood** | | |
 | [evidence](skills/evidence/SKILL.md) | The scripts and rules the others share: quote checking, counting and participant codes. | |
 

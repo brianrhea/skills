@@ -1,6 +1,6 @@
 ---
 name: copywriting
-description: Write marketing and product copy from Jobs to Be Done research, using the customers' own words and citing the quote behind each line. Covers homepages, landing pages, emails, ads, sales one-pagers, onboarding and in-app copy. Use when the user asks for copy, messaging, headlines, a homepage, a landing page, an email or an ad based on what customers said.
+description: Write marketing and product copy from Jobs to Be Done research, using the customers' own words and citing the quote behind each line. Covers homepages, landing pages, emails, ads, LinkedIn posts, sales one-pagers, onboarding and in-app copy, and can structure a piece with a named formula such as BAB, PASTOR, QUEST, SLAY, VFCA or the 4 Ps. Use when the user asks for copy, messaging, headlines, a homepage, a landing page, an email, an ad or a post based on what customers said.
 ---
 
 # Copywriting
@@ -22,7 +22,7 @@ If there is no research, do not write from the product description alone. Tell t
 
 ## First, settle two things
 
-1. **The piece.** Homepage, landing page, email, ad, sales one-pager, onboarding screen or something else. If the user did not say, ask.
+1. **The piece.** Homepage, landing page, email, ad, LinkedIn post, sales one-pager, onboarding screen or something else. If the user did not say, ask.
 2. **The reader's stage.** Where is the person reading this in the buying timeline? This decides which force leads.
 
 | Reader's stage | They are | Lead with | Typical pieces |
@@ -34,6 +34,23 @@ If there is no research, do not write from the product description alone. Tell t
 | Drifting away | Using it less | The pushes building inside our own product, and the original pull | Win-back and renewal emails |
 
 A piece aimed at the wrong stage is the most common reason good copy fails. An ad that answers pricing objections is talking to someone who is not there yet.
+
+## Pick a structure
+
+Once you know the piece and the reader's stage, choose how to order it. `references/formulas.md` has six formulas, what each slot holds, and which research fills it:
+
+| Formula | Reach for it when |
+| --- | --- |
+| BAB (Before, After, Bridge) | The piece is short and the reader is not looking yet |
+| SLAY (Story, Lesson, Advice, You) | It is a LinkedIn post and there is a true story to tell |
+| The 4 Ps (Picture, Promise, Proof, Push) | It is a landing page or sales email and you have proof |
+| QUEST (Qualify, Understand, Educate, Stimulate, Transition) | The page is for one kind of buyer and needs to turn the wrong ones away |
+| VFCA (Visceral opener, Fresh perspective, Challenge, Anaphora) | It is an opinion post built on a line a customer said |
+| PASTOR (Problem, Amplify, Solution, Testimony, Offer, Response) | It is a long sales page with an offer and publishable testimony |
+
+If the user names a formula, use it. If they do not, pick one, say which and why in a line, and offer the alternative. A homepage usually follows the section map below instead, since it has to answer every force.
+
+The formula sets the order. The research fills the slots. A slot with nothing behind it is marked "NEEDS ANSWER".
 
 ## Shapes for common pieces
 
@@ -52,7 +69,9 @@ A piece aimed at the wrong stage is the most common reason good copy fails. An a
 
 **Email.** One force per email. Subject line from the customer's own phrase for it. Open with their situation, give one idea, and ask for one action. For a sequence, give each email a different force and say which.
 
-**Ad or social post.** One push or one pull, stated the way a customer said it. Write five variants on five different forces so they can be tested against each other.
+**Ad or short social post.** One push or one pull, stated the way a customer said it. BAB fits well. Write five variants on five different forces so they can be tested against each other.
+
+**LinkedIn post.** SLAY when there is a true story, VFCA when there is a strong line and a view. Write in the user's first person, and never invent the story.
 
 **Sales one-pager or deck outline.** Situation (pushes), what they want instead (pulls), why people hesitate and the answer (anxieties), how switching works (habits), proof.
 
@@ -77,6 +96,7 @@ Write to `research/copywriting/<piece>.md`, for example `homepage.md` or `onboar
 ```markdown
 # <Piece>
 Reader's stage: <stage>
+Structure: <formula or section map, and why>
 Based on: <files used>
 
 ## Options for the lead line
@@ -95,6 +115,7 @@ Every claim with no research behind it, and every NEEDS ANSWER.
 ## Check before finishing
 
 - The piece leads with the force that matches the reader's stage.
+- Every slot of the formula is filled from the research or marked "NEEDS ANSWER". No invented story, testimony or statistic.
 - No line promises something the user has not confirmed the product does.
 - Every customer quote in the source notes passes the evidence skill's quote check. Its folder is next to this one.
 - Read the lead line as the customer. If they would not say it that way, rewrite it.
