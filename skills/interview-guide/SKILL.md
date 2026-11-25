@@ -7,9 +7,17 @@ description: Build a Jobs to Be Done switch-interview guide, with a recruiting s
 
 Produce everything a person needs to run switch interviews: who to recruit, how to open, and what to listen for. The interview itself is run by a human. Never simulate a customer or write imagined answers.
 
+## Setup: none required
+
+The user should never have to create folders, rename files or run another skill first.
+
+- **Input.** The user's description of their product and customers, in whatever form they give it. A website, a pitch deck or a product page is enough to start from.
+- **Workspace.** Save output in a `research/` folder in the current project, creating it if it does not exist. If you cannot write files, give the full output in your reply and say that it was not saved.
+- **Finish.** Reply with a short summary of what you found, where it was saved, and the one next step you recommend. Offer to do that step.
+
 ## Before writing
 
-You need three things. Ask for whichever are missing, in one message:
+You need three things. Read `research/context.md` first. Ask for whichever are still missing, in one message, then save all three to `research/context.md` so no other skill has to ask again:
 
 1. What the product is, in a sentence.
 2. Who makes the buying decision.
@@ -17,7 +25,7 @@ You need three things. Ask for whichever are missing, in one message:
 
 ## What to produce
 
-Write to `research/interview-guide.md`, or the folder the user names.
+Write to `research/interview-guide.md`.
 
 ### 1. Screener
 

@@ -24,9 +24,18 @@ A Job to Be Done:
 
 The left column is tied to a product, so it can only lead to a better version of that product.
 
+## Setup: none required
+
+The user should never have to create folders, rename files or run another skill first.
+
+- **Input.** Use what already exists in `research/`: interview summaries, then the forces diagram. Also accept anything the user points to, such as support tickets, sales notes or survey comments. They can paste it, attach it or give a path.
+- **Workspace.** Save output in a `research/` folder in the current project, creating it if it does not exist. If you cannot write files, give the full output in your reply and say that it was not saved.
+- **Context.** Read `research/context.md` if it exists. If you need the product, the buyer or the decision being studied and the file does not have them, ask once and save the answers there.
+- **Finish.** Reply with a short summary of what you found, where it was saved, and the one next step you recommend. Offer to do that step.
+
 ## Input
 
-Interview summaries, the forces diagram, support tickets or sales notes. If the user has no research, say that the statements will be hypotheses, draft them, and label every one "untested".
+If there is no research at all, say that the statements will be hypotheses, draft them from `research/context.md` and what the user tells you, and label every one "untested".
 
 ## Steps
 
@@ -52,7 +61,7 @@ Rewrite statements that fail, and show the original beside the rewrite so the us
 
 ## Output
 
-Write to `research/analysis/job-statements.md`:
+Write to `research/job-statements.md`:
 
 ```markdown
 # Job statements

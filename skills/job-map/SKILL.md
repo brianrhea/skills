@@ -7,9 +7,18 @@ description: Create a Jobs to Be Done job map that breaks a core job into the ei
 
 Describe what the customer is trying to get done from start to finish, without reference to any product. The map shows every point where a product could help.
 
+## Setup: none required
+
+The user should never have to create folders, rename files or run another skill first.
+
+- **Input.** A core job. Take it from the user's request if they gave one. Otherwise use the core job in `research/job-statements.md`. If neither exists, or the user gave a product or feature instead of a job, work out the job with them in a question or two before mapping.
+- **Workspace.** Save output in a `research/` folder in the current project, creating it if it does not exist. If you cannot write files, give the full output in your reply and say that it was not saved.
+- **Context.** Read `research/context.md` if it exists. If you need the product, the buyer or the decision being studied and the file does not have them, ask once and save the answers there.
+- **Finish.** Reply with a short summary of what you found, where it was saved, and the one next step you recommend. Offer to do that step.
+
 ## Input
 
-A core job statement. If the user gives a product or a feature, work out the job with them first, or use the job-statements skill. Research is optional and makes the map far more useful.
+Research is optional and makes the map far more useful. Read the summaries in `research/interviews/` and `research/forces.md` when they exist.
 
 ## The eight steps
 
@@ -54,7 +63,7 @@ Without research, mark the whole map "hypothesis" in its first line.
 
 ## Output
 
-Write to `research/analysis/job-map.md`:
+Write to `research/job-map.md`:
 
 ```markdown
 # Job map: <core job>

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Ask Brian"
+  short_description: "Find the right skill and do the next step"
+policy:
+  allow_implicit_invocation: false

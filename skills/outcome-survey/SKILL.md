@@ -5,11 +5,18 @@ description: Turn Jobs to Be Done outcome statements into an importance and sati
 
 # Outcome Survey
 
-Interviews tell you which needs exist. A survey tells you which ones matter to the most people. This skill has two modes: writing the survey and scoring the results.
+Interviews tell you which needs exist. A survey tells you which ones matter to the most people. This skill has two modes: writing the survey and scoring the results. Choose the mode from what the user has: a response export means scoring, and anything else means writing.
+
+## Setup: none required
+
+The user should never have to create folders, rename files or run another skill first.
+
+- **Input.** For writing, the outcome statements in `research/job-map.md`, or any list of outcomes the user pastes or points to. If there is no job map, build one first by following the job-map skill. For scoring, the response export from the user's survey tool, wherever it was downloaded.
+- **Workspace.** Save output in a `research/` folder in the current project, creating it if it does not exist. If you cannot write files, give the full output in your reply and say that it was not saved.
+- **Context.** Read `research/context.md` if it exists. If you need the product, the buyer or the decision being studied and the file does not have them, ask once and save the answers there.
+- **Finish.** Reply with a short summary of what you found, where it was saved, and the one next step you recommend. Offer to do that step.
 
 ## Mode 1: write the survey
-
-Input is a list of outcome statements, usually from `research/analysis/job-map.md`.
 
 For each outcome, write a pair of questions on the same five-point scale:
 
@@ -30,10 +37,10 @@ Write to `research/survey/survey.md` in a layout that pastes cleanly into a surv
 
 Input is the response export as CSV. Ask which columns hold importance and satisfaction for each outcome if the header does not make it obvious.
 
-Run the script. Do not compute scores by hand.
+Run `scripts/score.py` from this skill's folder. Do not compute scores by hand.
 
 ```bash
-python3 scripts/score.py responses.csv --outcomes research/survey/outcomes.csv
+python3 <this skill's folder>/scripts/score.py <responses.csv> --outcomes research/survey/outcomes.csv
 ```
 
 The script expects columns named `<id>_importance` and `<id>_satisfaction`, holding either the numbers 1 to 5 or the scale labels. If the export is shaped differently, reshape it into that layout first and tell the user what you changed.

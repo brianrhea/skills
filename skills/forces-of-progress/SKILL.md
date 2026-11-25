@@ -7,9 +7,18 @@ description: Synthesize several customer interviews into one Forces of Progress 
 
 Combine interviews into a single view of why customers switch and what holds them back. A customer switches when push plus pull outweighs anxiety plus habit.
 
+## Setup: none required
+
+The user should never have to create folders, rename files or run another skill first.
+
+- **Input.** Start from the interview summaries in `research/interviews/`. If the user points to transcripts that have no summary yet, or there are no summaries at all, analyze those transcripts first by following the interview-analysis skill, then continue. Do this yourself and do not send the user away to run another skill.
+- **Workspace.** Save output in a `research/` folder in the current project, creating it if it does not exist. If you cannot write files, give the full output in your reply and say that it was not saved.
+- **Context.** Read `research/context.md` if it exists. If you need the product, the buyer or the decision being studied and the file does not have them, ask once and save the answers there.
+- **Finish.** Reply with a short summary of what you found, where it was saved, and the one next step you recommend. Offer to do that step.
+
 ## Input
 
-Prefer the per-interview summaries in `research/analysis/`. If only raw transcripts exist, apply the interview-analysis skill to each first, so that every force already has a quote and a timeline stage.
+Every force must arrive with a quote and a timeline stage, which is why the summaries come first.
 
 With fewer than three interviews, produce the diagram and state at the top that the ranking is not yet meaningful.
 
@@ -23,7 +32,7 @@ With fewer than three interviews, produce the diagram and state at the top that 
 
 ## Output
 
-Write to `research/analysis/forces.md`:
+Write to `research/forces.md`. If the file exists, update it with the interviews added since, and say how the ranking changed.
 
 ```markdown
 # Forces of Progress

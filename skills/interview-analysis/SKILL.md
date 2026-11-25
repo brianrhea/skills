@@ -5,7 +5,16 @@ description: Analyze a customer interview transcript with Jobs to Be Done, extra
 
 # Interview Analysis
 
-Turn one transcript into a one-page summary that a person who was not on the call can trust. Handle one interview at a time. When given a folder, repeat the process for each file and write one summary per interview.
+Turn one transcript into a one-page summary that a person who was not on the call can trust. Handle one interview at a time. When given a folder or several files, repeat the process for each and write one summary per interview.
+
+## Setup: none required
+
+The user should never have to create folders, rename files or run another skill first.
+
+- **Input.** Use whatever the user points to: a file, a folder, pasted text, an attachment, or a link you can open with a connected tool. Leave their files where they are. If they point to nothing, look in the current folder for files that read like interview transcripts, list what you found, and confirm before analyzing. When a transcript is pasted or attached and exists nowhere on disk, save it unchanged to `research/transcripts/<name>.md` so its quotes can be checked later.
+- **Workspace.** Save output in a `research/` folder in the current project, creating it if it does not exist. If you cannot write files, give the full output in your reply and say that it was not saved.
+- **Context.** Read `research/context.md` if it exists. If you need the product, the buyer or the decision being studied and the file does not have them, ask once and save the answers there.
+- **Finish.** Reply with a short summary of what you found, where it was saved, and the one next step you recommend. Offer to do that step.
 
 ## The quote rule
 
@@ -27,10 +36,11 @@ Every finding carries a quote copied character for character from the transcript
 
 ## Output
 
-Write to `research/analysis/<interview-name>.md`:
+Write to `research/interviews/<interview-name>.md`. Skip any transcript that already has a summary there unless the user asks to redo it.
 
 ```markdown
 # <Participant label>: <one-line summary of their story>
+Source: <path or link to the transcript>
 
 ## Context
 Role, company type, what they switched from and to. No names unless the user asked to keep them.
