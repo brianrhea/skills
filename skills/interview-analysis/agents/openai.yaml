@@ -1,0 +1,3 @@
+interface:
+  display_name: "Interview Analysis"
+  short_description: "Summarize a transcript: timeline, forces and quotes"

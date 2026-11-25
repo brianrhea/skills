@@ -1,0 +1,17 @@
+{
+  "name": "brianrhea",
+  "owner": {
+    "name": "Brian Rhea",
+    "url": "https://brianrhea.com"
+  },
+  "description": "Brian Rhea's Jobs to Be Done skills for product people and their agents.",
+  "plugins": [
+    {
+      "name": "brianrhea-skills",
+      "source": "./",
+      "description": "Jobs to Be Done customer research skills: interview guides, transcript analysis, Forces of Progress, job statements, job maps, outcome surveys and website copy.",
+      "category": "product",
+      "keywords": ["jobs-to-be-done", "jtbd", "customer-research", "product", "skills"]
+    }
+  ]
+}

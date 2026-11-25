@@ -1,0 +1,3 @@
+interface:
+  display_name: "Outcome Survey"
+  short_description: "Write and score an importance and satisfaction survey"

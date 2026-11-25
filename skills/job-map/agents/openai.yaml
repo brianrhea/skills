@@ -1,0 +1,3 @@
+interface:
+  display_name: "Job Map"
+  short_description: "Map a job across eight steps with outcome statements"
