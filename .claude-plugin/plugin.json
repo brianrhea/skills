@@ -1,8 +1,8 @@
 {
   "name": "brianrhea-skills",
   "displayName": "Brian Rhea's Product Skills",
-  "version": "0.4.0",
-  "description": "Market research and Jobs to Be Done skills: interview guides, transcript analysis, voice of customer, competitive analysis, Forces of Progress, job statements, job maps, outcome surveys and copywriting, with every quote checked against its source.",
+  "version": "0.5.0",
+  "description": "Market research and Jobs to Be Done skills: a guided starting point, a job canvas for new ideas, interview guides, transcript analysis, voice of customer, competitive analysis, Forces of Progress, job statements, job maps, outcome surveys and copywriting, with every quote checked against its source.",
   "author": {
     "name": "Brian Rhea",
     "url": "https://brianrhea.com"
@@ -24,6 +24,7 @@
   ],
   "skills": [
     "./skills/ask-brian",
+    "./skills/job-canvas",
     "./skills/interview-guide",
     "./skills/interview-analysis",
     "./skills/voice-of-customer",

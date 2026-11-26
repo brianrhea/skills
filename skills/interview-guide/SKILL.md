@@ -15,6 +15,15 @@ The user should never have to create folders, rename files or run another skill 
 - **Workspace.** Save output in a `research/` folder in the current project, creating it if it does not exist. If you cannot write files, give the full output in your reply and say that it was not saved.
 - **Finish.** Reply with a short summary of what you found, where it was saved, and the one next step you recommend. Offer to do that step.
 
+## Two kinds of interview
+
+| The people you will talk to | Kind | Follow |
+| --- | --- | --- |
+| Bought, switched or cancelled in the last 90 days | Switch interview | This file |
+| Do the job today and have not bought anything from you | Job interview | `references/job-interview.md` |
+
+If it is not clear which applies, ask as a choice. Someone with an idea and no customers needs job interviews.
+
 ## Before writing
 
 You need three things. Read `research/context.md` first. Ask for whichever are still missing, in one message, then save all three to `research/context.md` so no other skill has to ask again:

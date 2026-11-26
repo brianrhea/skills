@@ -4,33 +4,51 @@
   "groupings": [
     {
       "title": "Start here",
-      "description": "Not sure where to begin? This one looks at what you have and does the next step.",
-      "skills": ["ask-brian"]
+      "description": "Not sure where to begin, or starting from an idea? These work out where you are and what to test.",
+      "skills": [
+        "ask-brian",
+        "job-canvas"
+      ]
     },
     {
       "title": "Market research",
       "description": "Interview customers, read the feedback you already have, and see what they would use instead of you.",
-      "skills": ["interview-guide", "interview-analysis", "voice-of-customer", "competitive-analysis"]
+      "skills": [
+        "interview-guide",
+        "interview-analysis",
+        "voice-of-customer",
+        "competitive-analysis"
+      ]
     },
     {
       "title": "Find the pattern",
       "description": "Turn a stack of interviews into the forces behind a switch and the jobs customers are hiring for.",
-      "skills": ["forces-of-progress", "job-statements"]
+      "skills": [
+        "forces-of-progress",
+        "job-statements"
+      ]
     },
     {
       "title": "Decide what to build",
       "description": "Break the job into steps, then survey customers to rank the needs nobody is meeting.",
-      "skills": ["job-map", "outcome-survey"]
+      "skills": [
+        "job-map",
+        "outcome-survey"
+      ]
     },
     {
       "title": "Put it to work",
       "description": "Write copy in your customers' words, with the quote behind every line.",
-      "skills": ["copywriting"]
+      "skills": [
+        "copywriting"
+      ]
     },
     {
       "title": "Under the hood",
       "description": "The scripts the others share: quote checking, counting and participant codes. Install it with the rest.",
-      "skills": ["evidence"]
+      "skills": [
+        "evidence"
+      ]
     }
   ]
 }

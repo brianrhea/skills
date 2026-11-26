@@ -55,6 +55,7 @@ copilot plugin install brianrhea-skills@brianrhea
 There is nothing to set up. Open your agent in any folder, point it at what you have, and ask.
 
 - "Here's a transcript from yesterday's customer call. What did we learn?" (paste it, attach it or give the path)
+- "I have an idea for a meal-planning app. Help me work out what job it does."
 - "Analyze the interviews in my Downloads folder."
 - "Here are six months of support tickets. What are customers struggling with?"
 - "Who are we really competing with? Start from what customers say they used before."
@@ -78,6 +79,7 @@ Your files stay where they are. The skills save their work in one `research/` fo
 research/
   README.md            where the project stands and what to do next
   context.md           your product, buyer and the decision you are studying
+  job-canvas.md        your hypotheses, and which ones customers confirmed
   interview-guide.md
   interviews/          one summary per interview
   corpus/              a cleaned, numbered copy of your raw material, kept out of git
@@ -98,6 +100,7 @@ Each works on its own. If one needs something an earlier step would have produce
 | --- | --- | --- |
 | **Start here** | | |
 | [ask-brian](skills/ask-brian/SKILL.md) | Asks where you are starting from (an idea, a business with customer data, or a new market), then does the next step. | [Jobs to Be Done](https://brianrhea.com/jobs-to-be-done/) |
+| [job-canvas](skills/job-canvas/SKILL.md) | Turns an idea, a product or a role into a chosen job and a canvas of assumptions to test. | [Jobs to Be Done](https://brianrhea.com/jobs-to-be-done/) |
 | **Market research** | | |
 | [interview-guide](skills/interview-guide/SKILL.md) | Builds a screener and a timeline-based discussion guide for switch interviews. | [Customer research](https://brianrhea.com/customer-research/) |
 | [interview-analysis](skills/interview-analysis/SKILL.md) | Summarizes one transcript: timeline, struggling moments and forces, each with a quote. | [Customer research](https://brianrhea.com/customer-research/) |

@@ -62,14 +62,10 @@ The goal is to find out whether the problem is real before anything gets built. 
 
 1. **Hear the idea.** Ask them to describe it, who has the problem, and what those people do about it today. Plain text.
 2. **Turn it around.** Restate it as the customer's problem with the product taken out. If it cannot be stated without the product, say so; that is the first finding.
-3. **Draft the hypotheses**, each marked "untested", and save them to `research/hypotheses.md`:
-   - The job the customer is trying to get done, following job-statements.
-   - What they use today, including spreadsheets, workarounds and doing nothing, following Part 1 of competitive-analysis.
-   - A first guess at the four forces: what would push them, what would pull them, what would worry them, what habit they would have to break.
-   - The five things worth learning from each conversation: the progress they want, the context they are in, the obstacles, the hacks they use today, and how they judge quality.
-4. **Name the riskiest guess.** Usually it is whether the problem hurts enough for anyone to change what they do.
-5. **Plan five conversations** with interview-guide. People who have the problem today, asked about what they have already tried and paid for, never whether they would use this.
-6. **After the conversations,** use interview-analysis, then come back and mark each hypothesis supported, wrong or still open.
+3. **Build the canvas** by following job-canvas. It proposes candidate jobs for the user to choose from, checks the job is at a useful level, picks who does it, and drafts the canvas, job map, forces and buying timeline, every item marked "untested".
+4. **Name the riskiest assumptions.** job-canvas ends with three. Usually the first is whether the problem hurts enough for anyone to change what they do.
+5. **Plan five conversations** with interview-guide, as job interviews. People who do the job today, asked about what they have already tried and paid for, never whether they would use this.
+6. **After the conversations,** use interview-analysis, then go back to job-canvas to mark each item supported or wrong and add what nobody guessed.
 
 Say this plainly at least once: an agent can produce a convincing job map for an idea in a minute, and it will be made of the agent's assumptions. It is worth having as a list of things to check.
 
@@ -103,6 +99,7 @@ Warn them about the common mistake: assuming the new market wants the product fo
 
 | The user has | Next step | Skill |
 | --- | --- | --- |
+| An idea, a product or a role, and no research | Explore the job and list what to test | job-canvas |
 | Only an idea of who to talk to | Plan the interviews | interview-guide |
 | A few interview transcripts without summaries | Summarize each one | interview-analysis |
 | A large pile of feedback: tickets, sales calls, survey comments, cancellations, deal notes | Find the themes, with checked quotes and counts | voice-of-customer |
@@ -126,7 +123,7 @@ Starting point: <an idea | customers and data | a new market: name>
 
 | Step | Status | File |
 | --- | --- | --- |
-| Hypotheses | 6 drafted, 2 supported, 1 wrong | hypotheses.md |
+| Job canvas | 34 items: 9 supported, 3 wrong | job-canvas.md |
 | Interview guide | done | interview-guide.md |
 | Feedback themes | 412 tickets, 3 months old | voc/report.md |
 | Competitors | 4 profiled | competitors/ |
