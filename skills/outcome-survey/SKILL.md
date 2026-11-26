@@ -14,7 +14,7 @@ The user should never have to create folders, rename files or run another skill 
 - **Input.** For writing, the outcome statements in `research/job-map.md`, or any list of outcomes the user pastes or points to. If there is no job map, build one first by following the job-map skill. For scoring, the response export from the user's survey tool, wherever it was downloaded.
 - **Workspace.** Save output in a `research/` folder in the current project, creating it if it does not exist. If you cannot write files, give the full output in your reply and say that it was not saved.
 - **Context.** Read `research/context.md` if it exists. If you need the product, the buyer or the decision being studied and the file does not have them, ask once and save the answers there.
-- **Finish.** Reply with a short summary of what you found, where it was saved, and the one next step you recommend. Offer to do that step.
+- **Finish.** Update `research/README.md`, then reply on one screen as the evidence skill's "How to reply" section describes; its folder is next to this one. Lead with the finding that matters, give at most four more with a quote and a count where the work has them, name the one next step and why, list the files you changed in one line, and end with the "Where you are" line. Detail goes in the file.
 
 ## Mode 1: write the survey
 

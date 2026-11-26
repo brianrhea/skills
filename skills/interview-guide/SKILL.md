@@ -13,7 +13,7 @@ The user should never have to create folders, rename files or run another skill 
 
 - **Input.** The user's description of their product and customers, in whatever form they give it. A website, a pitch deck or a product page is enough to start from.
 - **Workspace.** Save output in a `research/` folder in the current project, creating it if it does not exist. If you cannot write files, give the full output in your reply and say that it was not saved.
-- **Finish.** Reply with a short summary of what you found, where it was saved, and the one next step you recommend. Offer to do that step.
+- **Finish.** Update `research/README.md`, then reply on one screen as the evidence skill's "How to reply" section describes; its folder is next to this one. Lead with the finding that matters, give at most four more with a quote and a count where the work has them, name the one next step and why, list the files you changed in one line, and end with the "Where you are" line. Detail goes in the file.
 
 ## Two kinds of interview
 

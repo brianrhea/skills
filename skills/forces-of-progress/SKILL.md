@@ -14,7 +14,7 @@ The user should never have to create folders, rename files or run another skill 
 - **Input.** Start from the interview summaries in `research/interviews/`. If the user points to transcripts that have no summary yet, or there are no summaries at all, analyze those transcripts first by following the interview-analysis skill, then continue. Do this yourself and do not send the user away to run another skill.
 - **Workspace.** Save output in a `research/` folder in the current project, creating it if it does not exist. If you cannot write files, give the full output in your reply and say that it was not saved.
 - **Context.** Read `research/context.md` if it exists. If you need the product, the buyer or the decision being studied and the file does not have them, ask once and save the answers there.
-- **Finish.** Reply with a short summary of what you found, where it was saved, and the one next step you recommend. Offer to do that step.
+- **Finish.** Update `research/README.md`, then reply on one screen as the evidence skill's "How to reply" section describes; its folder is next to this one. Lead with the finding that matters, give at most four more with a quote and a count where the work has them, name the one next step and why, list the files you changed in one line, and end with the "Where you are" line. Detail goes in the file.
 
 ## Input
 
@@ -66,4 +66,4 @@ Show "Interviews" as a fraction such as 6/8. Give up to three quotes per force, 
 - Keep the forces distinct. A worry about migration is an anxiety, while "we have always used spreadsheets" is a habit, even when one customer says both in a breath.
 - Recommendations at the end must each point to a force in the tables.
 - Carry quotes over unchanged from the summaries. If any summary is marked "Not script-verified", or you add a quote of your own, check it with the evidence skill's script first. Its folder is next to this one.
-- For more than about ten interviews, write one evidence record per force and get the counts from the evidence skill's `count.py`, not from your own tally.
+- For more than about ten interviews, write one evidence record per force in `research/evidence/forces.jsonl` and get the counts from the evidence skill's `count.py`, not from your own tally.

@@ -83,6 +83,7 @@ research/
   interview-guide.md
   interviews/          one summary per interview
   corpus/              a cleaned, numbered copy of your raw material, kept out of git
+  evidence/            the checked quote records behind every file
   voc/                 themes, counts and quotes from tickets, calls and surveys
   competitors/         what customers hire instead, and a profile of each competitor
   forces.md

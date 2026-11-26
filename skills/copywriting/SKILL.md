@@ -14,7 +14,7 @@ The user should never have to create folders, rename files or run another skill 
 - **Input.** In order of usefulness: `research/forces.md`, `research/job-statements.md`, `research/job-map.md`, the summaries in `research/interviews/` for quotes, and `research/voc/report.md` for the customers' vocabulary. If there are interview summaries and no forces diagram, build the diagram first by following the forces-of-progress skill. Also read the user's existing copy if they share it or give its address, so you know what the product actually does.
 - **Workspace.** Save output in a `research/` folder in the current project, creating it if it does not exist. If you cannot write files, give the full output in your reply and say that it was not saved.
 - **Context.** Read `research/context.md` if it exists. If you need the product, the buyer or the decision being studied and the file does not have them, ask once and save the answers there.
-- **Finish.** Reply with a short summary of what you wrote, where it was saved, and the one next step you recommend. Offer to do that step.
+- **Finish.** Update `research/README.md`, then reply on one screen as the evidence skill's "How to reply" section describes; its folder is next to this one. Lead with the finding that matters, give at most four more with a quote and a count where the work has them, name the one next step and why, list the files you changed in one line, and end with the "Where you are" line. Detail goes in the file.
 
 ## Input
 
@@ -89,7 +89,7 @@ For anything else, apply the stage table and keep the same rules.
 - Lead with the reader's situation, and bring the product in second.
 - Give options for the line that matters most: five headlines or subject lines, each built on a different force, and say which force each uses.
 - Write one answer per anxiety, and say what the product does about it. If you do not know, write "NEEDS ANSWER" for the user to fill in. Never invent a feature, guarantee, price or statistic.
-- Customer quotes used as testimonials stay anonymous, with a note that the user needs permission to publish them.
+- Research quotes are not testimonials. Mark proof and testimony slots "NEEDS ANSWER". Under Assumptions, name the research quote that would make a good testimonial if that customer agreed to it, and say who to ask.
 
 ## Output
 

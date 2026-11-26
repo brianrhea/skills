@@ -13,7 +13,7 @@ Everything this skill produces is a hypothesis. It comes from what you already k
 
 - **Workspace.** Save output to `research/job-canvas.md`, creating `research/` if needed. If you cannot write files, give the full output in your reply and say that it was not saved.
 - **Context.** Read `research/context.md` if it exists. Save the starting point, the product or idea and the performer there when the user gives them.
-- **Finish.** Reply with the chosen job, the three riskiest assumptions, where the canvas was saved, and the next step. Offer to write the interview guide.
+- **Finish.** Update `research/README.md`, then reply on one screen as the evidence skill's "How to reply" section describes; its folder is next to this one. Lead with the finding that matters, give at most four more with a quote and a count where the work has them, name the one next step and why, list the files you changed in one line, and end with the "Where you are" line. Detail goes in the file.
 
 ## How to ask
 
@@ -23,28 +23,15 @@ The idea itself, and anything about real customers, is asked in plain text. Neve
 
 ## Steps
 
-### 1. What are we exploring?
+### 1. Read what they gave you
 
-Ask as a choice:
+Work out from the message whether you are starting from a product, a role or a job they already know, and go on. Do not ask which. If they gave you nothing, ask in plain text what the idea is and who has the problem. If they gave a job statement, skip to step 4.
 
-| Option | What it means |
-| --- | --- |
-| A product or service | Start from the thing: "meal kits", "expense software" |
-| A role | Start from the person: "office manager", "new parent" |
-| I already know the job | Skip to step 4 with their statement |
+Open your first reply with one line, once: "I can draft this in a minute, and it'll be made of my assumptions. It's worth having as a list of things to check."
 
-Then ask, in plain text, what it is. One line is enough.
+### 2. Write jobs one way
 
-### 2. Which way of writing jobs do they prefer?
-
-Ask as a choice:
-
-| Option | Looks like |
-| --- | --- |
-| Verb + object + clarifier | "Facilitate a workshop online" |
-| When I, help me, so I can | "When I chop an onion, help me slice it evenly, so I can get dinner on the table" |
-
-Recommend the first. It is shorter and easier to compare. Use the chosen style for the rest of the session.
+Use verb + object + clarifier: "Facilitate a workshop online". Do not ask about the style. Note in the file that "When I…, help me…, so I can…" is available, and switch if they ask.
 
 ### 3. Propose five candidate jobs
 
@@ -57,9 +44,11 @@ Write five jobs that people hire this product for, or that this role is trying t
 
 Show the four strongest as a choice and say that they can write their own. Let them edit the wording.
 
+Always show the candidates and wait for the user to choose, including when ask-brian or another skill sent you here. Do not draft the canvas until they have picked. Everything after this depends on it, and it is the one decision here that only they can make.
+
 ### 4. Check the level
 
-Jobs come at different sizes, and most first attempts are too big or too small. Write the chosen job at four levels:
+Jobs come at different sizes, and most first attempts are too big or too small. Write the chosen job at four levels, for the file:
 
 | Level | What it is | Example |
 | --- | --- | --- |
@@ -68,11 +57,14 @@ Jobs come at different sizes, and most first attempts are too big or too small. 
 | Little job | A part of the big job | Plan the week's dinners |
 | Micro job | A single task | Find a recipe for what is in the fridge |
 
-Ask which level to work at, as a choice. Recommend the big job or a little job: an aspiration is too broad to build for, and a micro job is a feature.
+### 5. Size and performer, in one ask
 
-### 5. Who does the job?
+Ask two things together, in one call to the question tool, each with your recommendation first:
 
-Propose three kinds of people who do this job, described by their situation and not only a title. Ask which to focus on, as a choice. The person who does the job is not always the person who pays; note both when they differ.
+- **How much of this do you want to take on?** "One part of the work" (the little job), "The whole job" (the big job) or "One task" (the micro job), each shown with the statement at that size. Recommend one part or the whole job. An aspiration is too broad to build for, and a single task is a feature.
+- **Who is this for?** Three kinds of people who do this job, described by their situation and not only a title.
+
+If the message already names who it is for, ask only the first. The person who does the job is not always the person who pays; note both when they differ.
 
 ### 6. Build the canvas
 

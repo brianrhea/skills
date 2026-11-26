@@ -14,7 +14,7 @@ The user should never have to create folders, rename files or run another skill 
 - **Input.** Use whatever the user points to: a file, a folder, pasted text, an attachment, or a link you can open with a connected tool. Leave their files where they are. If they point to nothing, look in the current folder for files that read like interview transcripts, list what you found, and confirm before analyzing. When a transcript is pasted or attached and exists nowhere on disk, save it unchanged to `research/transcripts/<name>.md` so its quotes can be checked later.
 - **Workspace.** Save output in a `research/` folder in the current project, creating it if it does not exist. If you cannot write files, give the full output in your reply and say that it was not saved.
 - **Context.** Read `research/context.md` if it exists. If you need the product, the buyer or the decision being studied and the file does not have them, ask once and save the answers there.
-- **Finish.** Reply with a short summary of what you found, where it was saved, and the one next step you recommend. Offer to do that step.
+- **Finish.** Update `research/README.md`, then reply on one screen as the evidence skill's "How to reply" section describes; its folder is next to this one. Lead with the finding that matters, give at most four more with a quote and a count where the work has them, name the one next step and why, list the files you changed in one line, and end with the "Where you are" line. Detail goes in the file.
 
 ## The quote rule
 
@@ -80,6 +80,6 @@ Leave a timeline stage empty and say "not covered" when the interview did not re
 
 ## Check before finishing
 
-- Every quote has been checked by script. Follow the evidence skill, whose folder is next to this one: prepare the transcript with `prepare.py`, naming the interviewer, write your findings as evidence records, and run `verify_quotes.py` until each one passes or is removed. Without Python, reread the transcript for each quote and mark the summary "Not script-verified".
+- Every quote has been checked by script. Follow the evidence skill, whose folder is next to this one: prepare the transcript with `prepare.py`, naming the interviewer, write your findings as evidence records in `research/evidence/interviews.jsonl`, and run `verify_quotes.py` until each one passes or is removed. Without Python, reread the transcript for each quote and mark the summary "Not script-verified".
 - The summary describes the customer's situation. If the product is the subject of most sentences, rewrite.
 - Events are dated or ordered wherever the customer gave timing.

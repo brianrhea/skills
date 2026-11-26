@@ -14,7 +14,7 @@ It produces two things: a map of the alternatives, built from your research, and
 - **Input.** Your research so far, and the names or addresses of competitors if you have them.
 - **Workspace.** Save output in `research/competitors/`, creating it if needed. If you cannot write files, give the full output in your reply and say that it was not saved.
 - **Context.** Read `research/context.md` if it exists. If you need the product, the buyer or the decision being studied and it is not there, ask once and save the answers.
-- **Finish.** Reply with what customers really compare you with, the two or three findings that matter, where the files are, and the one next step you recommend.
+- **Finish.** Update `research/README.md`, then reply on one screen as the evidence skill's "How to reply" section describes; its folder is next to this one. Lead with the finding that matters, give at most four more with a quote and a count where the work has them, name the one next step and why, list the files you changed in one line, and end with the "Where you are" line. Detail goes in the file.
 
 ## Part 1: What customers hire instead
 

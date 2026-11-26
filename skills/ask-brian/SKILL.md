@@ -19,9 +19,9 @@ Before describing what another skill does in detail, read its SKILL.md: the tabl
 
 1. **Look before asking.** Read `research/` if it exists, and whatever the user gave you in this message: files, pasted text, links.
 2. **Find the starting point.** If the files or the message make it obvious, do not ask. Otherwise ask the question under "Where are you starting from?".
-3. **Say where they stand** in two or three lines: what exists, what is missing, and the next step you recommend with the reason.
-4. **Do the step** by following the matching skill.
-5. **Close** with what was saved and what comes next.
+3. **When `research/` has work in it, greet in two lines.** First line: what the project is and what happened last, from `research/README.md`. Second line: the "Where you are" line. If files have arrived since the README was written, say so. Then, if the next step is work you can do alone, do it now. If it needs the user ("talk to four more customers"), ask in plain text whether it happened and where the notes are.
+4. **Do the step** by following the matching skill. When the message already says what they want ("forces from these five calls"), skip the questions and do it.
+5. **Close** the way the evidence skill's "How to reply" section describes.
 
 ## How to ask
 
@@ -32,29 +32,44 @@ There are two kinds of question, and they are asked differently.
 - Two to four options, each a few words, with a one-line description.
 - Put the option you would pick first when you have a recommendation.
 - The user can always answer in their own words. Never make them choose a wrong option.
-- Use multiple-select when more than one can be true, such as what material they have.
+- The short label above each question is twelve characters or fewer: "Start", "Goal", "Job", "Next".
 
 **Anything about the user's idea, their customers or what happened** is asked in plain text and answered in their own words. Never offer options for these. A menu of likely answers puts words in their mouth, which is the mistake this whole method exists to avoid.
 
-Keep it short. Ask at most three questions before doing something useful. Never ask what a file already answers. Save every answer to `research/context.md`.
+Ask one thing at a time, and only what changes which step runs next. Never ask what a file or the message already answers. Save every answer to `research/context.md`.
+
+Read the person without asking them. Someone who says "forces", "switch interview" or "job map" gets short replies and no definitions. Someone who says "I have an idea for an app" gets each term explained once, in a clause, the first time it appears.
 
 ## Where are you starting from?
 
-Ask this once, as a choice:
+With nothing in the message or the folder, ask this once, as a choice:
 
 | Option | Description to show |
 | --- | --- |
-| I have an idea | No customers yet, or only a handful. I want to know if the problem is real. |
-| I have customers and data | Calls, tickets or survey comments are piling up. I have never dug into them this way. |
-| I'm looking at a new market | An adjacent market or a new segment for a product that already exists. |
-| I'm partway through | Pick up where the research left off. Offer this only when `research/` has work in it. |
+| An idea | No customers yet, or only a handful. I want to know if the problem is real. |
+| Customers and data | Calls, tickets or survey comments are piling up. Nobody has dug into them this way. |
+| A new market | An adjacent market or a new segment for a product that already exists. |
 
-Then, where it helps, one or both of these as choices:
+Then ask the one plain-text question for that starting point, and nothing else until you have done something useful:
 
-- **What do you have on hand?** (multiple-select) Interview transcripts. Sales or support calls. Tickets or survey comments. Nothing yet.
-- **What is this for?** Deciding what to build. Positioning and messaging. Deciding whether to enter a market. Understanding why customers leave.
+| Starting point | The one question |
+| --- | --- |
+| An idea | Tell me the idea in a sentence or two, and who has the problem. |
+| Customers and data | Where's the material? Point me at a folder or files, or paste it. |
+| A new market | Which market, and what made you look at it now? |
 
-And these in plain text, in their words: what the product or idea is, who it is for, and what made them want to look into this now.
+**When there is customer material and no stated purpose,** ask one more thing before reading it, as a choice: *What will you do with what we find?*
+
+| Option | Where it leads |
+| --- | --- |
+| Rewrite our messaging | Interviews or themes, then forces, then copywriting |
+| Decide what to build | Forces, job statements, job map, then the survey |
+| Find out why people leave | Cancellations and churn interviews first |
+| See what's in there | Themes, then recommend from what turns up |
+
+The answer decides the path, so it comes before the work, not after.
+
+Infer the product, the buyer and the decision from the material. Say what you inferred in one line, save it to `research/context.md`, and let them correct it.
 
 ## Starting from an idea
 
@@ -62,18 +77,16 @@ The goal is to find out whether the problem is real before anything gets built. 
 
 1. **Hear the idea.** Ask them to describe it, who has the problem, and what those people do about it today. Plain text.
 2. **Turn it around.** Restate it as the customer's problem with the product taken out. If it cannot be stated without the product, say so; that is the first finding.
-3. **Build the canvas** by following job-canvas. It proposes candidate jobs for the user to choose from, checks the job is at a useful level, picks who does it, and drafts the canvas, job map, forces and buying timeline, every item marked "untested".
+3. **Build the canvas** by following job-canvas. It proposes candidate jobs for the user to choose from, checks the job is at a useful level, picks who does it, and drafts the canvas, job map, forces and buying timeline, every item marked "untested". The user makes those choices. Do not make them on their behalf to save time.
 4. **Name the riskiest assumptions.** job-canvas ends with three. Usually the first is whether the problem hurts enough for anyone to change what they do.
 5. **Plan five conversations** with interview-guide, as job interviews. People who do the job today, asked about what they have already tried and paid for, never whether they would use this.
 6. **After the conversations,** use interview-analysis, then go back to job-canvas to mark each item supported or wrong and add what nobody guessed.
-
-Say this plainly at least once: an agent can produce a convincing job map for an idea in a minute, and it will be made of the agent's assumptions. It is worth having as a list of things to check.
 
 ## Starting from customers and data
 
 The business works and the material exists. Nobody has read it with this lens.
 
-1. **Read what they have.** voice-of-customer on the calls, tickets and survey comments. This gives themes, the customers' vocabulary and a list of people worth talking to.
+1. **Read what they have, by what it is.** Interviews about a decision to buy, switch or cancel, even two or three, go to interview-analysis, one summary each. Piles of tickets, survey comments, sales calls or cancellations go to voice-of-customer, which gives themes, the customers' vocabulary and a list of people worth talking to. With both, do the interviews first and use the pile to check whether what they say holds up across more customers.
 2. **See what they are compared with.** competitive-analysis, starting from the alternatives customers named.
 3. **Talk to recent buyers.** interview-guide for switch interviews with five to eight people who bought or cancelled in the last 90 days. The pile of feedback says what people complain about. Only these conversations say why they bought.
 4. **Find the pattern.** interview-analysis for each, then forces-of-progress and job-statements.
@@ -87,7 +100,7 @@ Most people stop after step 1 because the themes feel like answers. Tell them th
 The product exists. The question is whether a different group of people would hire it, and for what.
 
 1. **Pin down the job current customers hire it for.** Take it from `research/job-statements.md` or the forces diagram. If neither exists, ask what their best customers were trying to get done, and mark the answer as their belief.
-2. **Ask which kind of move this is,** as a choice: the same job for a different kind of customer, or a neighbouring job for the customers they already have.
+2. **Ask which kind of move this is,** as a choice: "Same job, new customers" or "New job, same customers".
 3. **Keep the new work apart.** Save everything for the new market under `research/markets/<name>/` so it never mixes with evidence from current customers.
 4. **Find out what that market uses today.** competitive-analysis for the new segment. Expect different alternatives from the ones current customers named.
 5. **Plan five conversations** with interview-guide, with people in the new market who have the problem today and are not customers.
@@ -115,33 +128,11 @@ The path is a default. A user who only wants homepage copy from last quarter's i
 
 ## Status file
 
-Keep `research/README.md` current after every step, so the user and any later session can see the state of the project at a glance:
-
-```markdown
-# Research: <product>
-Starting point: <an idea | customers and data | a new market: name>
-
-| Step | Status | File |
-| --- | --- | --- |
-| Job canvas | 34 items: 9 supported, 3 wrong | job-canvas.md |
-| Interview guide | done | interview-guide.md |
-| Feedback themes | 412 tickets, 3 months old | voc/report.md |
-| Competitors | 4 profiled | competitors/ |
-| Interviews analyzed | 5 of 8 | interviews/ |
-| Forces of Progress | from 5 interviews, out of date | forces.md |
-| Job statements | not started | |
-| Job map | not started | |
-| Outcome survey | not started | |
-| Copywriting | not started | copywriting/ |
-
-Next: analyze the three new transcripts, then refresh the forces diagram.
-```
-
-Leave out rows that do not apply to the starting point. Mark a file "out of date" when something it depends on has changed since it was written, such as new interviews after the forces diagram.
+`research/README.md` records where the project stands. Its format, the "Where you are" line and the shape of every reply are in the evidence skill, whose folder is next to this one. Read it before your first reply.
 
 ## Rules
 
 - When the user has no research and wants output anyway, say plainly that the result will be a hypothesis. Then help them. The fastest honest route is usually an interview guide and five conversations.
 - Never invent customers, interviews or quotes to fill a gap in the path.
 - Findings from tickets, reviews and public pages are hypotheses. When the next step is a decision that rests on them, recommend confirming with a few interviews first.
-- Recommend one next step at a time.
+- Recommend one next step at a time, and do one step per reply unless the user asked for several.

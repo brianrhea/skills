@@ -14,7 +14,7 @@ What comes out is a set of well-evidenced hypotheses. Existing feedback tells yo
 - **Input.** Take the data from wherever it is. See "Getting the data" below.
 - **Workspace.** Save output in `research/voc/`, creating it if needed. If you cannot write files, give the full output in your reply and say that it was not saved.
 - **Context.** Read `research/context.md` if it exists. If you need the product, the buyer or the decision being studied and it is not there, ask once and save the answers.
-- **Finish.** Reply with the three or four strongest findings, where the report was saved, and the one next step you recommend. Offer to do it.
+- **Finish.** Update `research/README.md`, then reply on one screen as the evidence skill's "How to reply" section describes; its folder is next to this one. Lead with the finding that matters, give at most four more with a quote and a count where the work has them, name the one next step and why, list the files you changed in one line, and end with the "Where you are" line. Detail goes in the file.
 
 Follow the evidence skill for the scripts and rules. Its folder is next to this one. Its five rules apply to everything below.
 
@@ -31,9 +31,9 @@ Work down this list and stop at the first that applies.
 1. **Prepare.** Run `prepare.py` on the input. If it warns that an export has no customer text, stop and tell the user exactly which export to get.
 2. **Tell the user what you have.** The number of documents, the scale the script reported, and how you will approach it. For a large corpus, say you will start with a sample.
 3. **Read the reference file for each source type** in the corpus: `references/tickets.md`, `calls.md`, `surveys.md`, `churn.md`, `win-loss.md` or `reviews.md`. Each says what that source is good for and what it distorts.
-4. **Extract.** One document or small batch at a time, write records to `research/voc/evidence.jsonl`. For each thing a customer said that matters, record the verbatim quote, a `kind`, the `source` type, and a short `note`. Do not assign themes yet.
+4. **Extract.** One document or small batch at a time, write records to `research/evidence/voc.jsonl`. For each thing a customer said that matters, record the verbatim quote, a `kind`, the `source` type, and a short `note`. Do not assign themes yet.
 5. **Verify.** Run `verify_quotes.py`. Fix or drop every record that fails.
-6. **Draft themes from a sample.** Read up to about fifty verified records spread across sources. Propose 8 to 15 themes named in the customers' words, each with a one-line definition and an example. Show them to the user and ask what to rename, merge or split. Ask this in plain text and let them answer in their own words; do not turn it into a multiple-choice question. This is the step where their judgement adds most.
+6. **Draft themes from a sample.** Read up to about fifty verified records spread across sources. Propose 8 to 15 themes named in the customers' words, each with a one-line definition and an example. Up to about 300 items, do not stop here: fix the themes, count, and show them in your reply with one line inviting changes ("Rename, merge or split any and I'll recount"). Recounting is cheap at that size. Above that, stop and show them before coding everything, and ask what to rename, merge or split in plain text, never as a multiple-choice question. Recoding a large corpus is expensive, and this is where their judgement adds most.
 7. **Fix the themes.** Save them to `research/voc/themes.md`. Then give every record a `theme` from that list, using `other` when nothing fits. If `other` passes about a tenth of the records, a theme is missing; add it and recode.
 8. **Count.** Run `count.py --by theme`, and again with `--split source`.
 9. **Write the report.**
@@ -52,7 +52,7 @@ A `workaround` is the most valuable kind. It shows someone cared enough to build
 | --- | --- |
 | Up to about 10 transcripts or 300 short items | Read directly. Still extract, verify and count. |
 | Up to about 50 transcripts or 2,000 items | One document or batch of about 25 items at a time, writing records as you go |
-| More than that | Draft and fix themes on a sample of a few hundred items first, then work through everything. Use subagents if you have them, each handling a batch, writing to its own file and returning only the file path. |
+| More than that | Draft and fix themes on a sample of a few hundred items first, then work through everything. Use subagents if you have them, each handling a batch, writing to its own file and returning only the file path. Wait for every one to finish before you reply. |
 
 When the user asks how many, either process everything or say plainly that the figure comes from a sample and give its size.
 
