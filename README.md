@@ -8,23 +8,15 @@ Works in Claude Code, Codex, GitHub Copilot and most other agents. You still tal
 
 ## What you walk away with
 
-Real sessions, run on made-up companies. Cropped, not edited.
+Lines from real sessions with the skills, run on made-up companies.
 
-**Find out what people actually bought.** Five sales calls in a folder. Two minutes later: four of five customers bought one thing, in their words, with every quote checked.
+![You have five customer calls. 4 of the 5 customers bought one thing: they found out about a no-show before their client did. Its suggested headline is the customer's own line, "Know before your client does."](docs/calls.webp)
 
-![Claude Code summarizing five customer calls: the client found out first, 4 of 5, with 70 of 70 quotes checked](docs/findings.webp)
+![Your CEO says customers want an API. 42 of 141 tickets are about getting hours into payroll. Don't tell the CEO "customers don't want an API." The tickets back the CEO's instinct and point to a better version of it.](docs/tickets.webp)
 
-**Walk into the roadmap meeting with numbers.** The CEO says customers want an API. 150 tickets say they want payroll to come out right. You get the count, the quotes, what to say, and where your own case is weak.
+![Can't I just build it over the weekend? If your buddy uses it, you've learned that a friend was nice to you. Be the app by hand instead.](docs/idea.webp)
 
-![Claude Code answering "should we build the API?" with ticket counts, a script for the CEO and where the argument could be wrong](docs/ceo.webp)
-
-**Know what the weekend would prove before you spend it.** Got an idea? It won't tell you not to build. It tells you what building would teach you, and gives you a test you can run by Friday.
-
-![Claude Code suggesting a cheaper test before building the app](docs/build.webp)
-
-**Argue with it.** Tell it it's wrong and it checks the transcript. When you're right, it fixes the finding. When you're not, it shows you the line.
-
-![Claude Code holding a finding by quoting the transcript, then correcting a different overclaim](docs/pushback.webp)
+![Push back and it checks. You were right on both points, and I've fixed them. P06 stays at 6 of 6: the accountant named Shiftloom first.](docs/pushback.webp)
 
 ## Install
 
