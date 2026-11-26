@@ -50,7 +50,7 @@ For each step, write three to eight outcomes customers use to judge success. Use
 - "Minimize the time it takes to reconcile figures from different sources."
 - "Minimize the likelihood of presenting a number that is later corrected."
 
-Each outcome is measurable, holds one idea and names no solution.
+Each outcome is measurable, holds one idea and names no solution. Check every one before saving: it starts "Minimize the time it takes to", "Minimize the likelihood of" or "Minimize the amount of". "Minimize the manager's involvement" has no measure; rewrite it as time, likelihood or amount.
 
 ## Grounding
 

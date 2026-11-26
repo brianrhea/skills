@@ -2,11 +2,29 @@
 
 [![skills.sh](https://skills.sh/b/brianrhea/skills)](https://skills.sh/brianrhea/skills)
 
-Skills for product people and their agents.
+Find out why people buy, what they're stuck on and what to build next, from the calls and tickets you already have. Your agent does the reading. You get the answer in a sentence, the customers' own words behind it, and a count next to every claim.
 
-Skills that teach Claude Code, Codex and GitHub Copilot to do market research and Jobs to Be Done: plan interviews, analyze transcripts, find the themes in a pile of tickets and calls, size up the competition, and turn what customers said into job maps, priorities and copy.
+Works in Claude Code, Codex, GitHub Copilot and most other agents. You still talk to your customers. The agent does the prep, the synthesis and the first draft.
 
-You still talk to your customers. The agent does the prep, the synthesis and the first draft.
+## What you walk away with
+
+Real sessions, run on made-up companies. Cropped, not edited.
+
+**Find out what people actually bought.** Five sales calls in a folder. Two minutes later: four of five customers bought one thing, in their words, with every quote checked.
+
+![Claude Code summarizing five customer calls: the client found out first, 4 of 5, with 70 of 70 quotes checked](docs/findings.webp)
+
+**Walk into the roadmap meeting with numbers.** The CEO says customers want an API. 150 tickets say they want payroll to come out right. You get the count, the quotes, what to say, and where your own case is weak.
+
+![Claude Code answering "should we build the API?" with ticket counts, a script for the CEO and where the argument could be wrong](docs/ceo.webp)
+
+**Know what the weekend would prove before you spend it.** Got an idea? It won't tell you not to build. It tells you what building would teach you, and gives you a test you can run by Friday.
+
+![Claude Code suggesting a cheaper test before building the app](docs/build.webp)
+
+**Argue with it.** Tell it it's wrong and it checks the transcript. When you're right, it fixes the finding. When you're not, it shows you the line.
+
+![Claude Code holding a finding by quoting the transcript, then correcting a different overclaim](docs/pushback.webp)
 
 ## Install
 

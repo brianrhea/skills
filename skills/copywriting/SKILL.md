@@ -97,8 +97,6 @@ Write to `research/copywriting/<piece>.md`, for example `homepage.md` or `onboar
 
 ```markdown
 # <Piece>
-Reader's stage: <stage>
-Structure: <formula or section map, and why>
 Based on: <files used>
 
 ## Options for the lead line
@@ -112,7 +110,12 @@ The copy, laid out the way the piece will be read.
 
 ## Assumptions
 Every claim with no research behind it, and every NEEDS ANSWER.
+
+## How this was built
+Reader's stage: <stage>. Structure: <formula or section map, and why>.
 ```
+
+The draft comes first because it is what the user came for. Method notes go last, in plain words.
 
 ## Check before finishing
 

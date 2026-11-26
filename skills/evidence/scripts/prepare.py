@@ -32,6 +32,12 @@ TIMING = re.compile(r"^\d{1,2}:\d{2}(?::\d{2})?[.,]\d{3}\s*-->")
 SPEAKER_LINE = re.compile(r"^([A-Z][\w .'’-]{0,40}?)\s*(?:\[[^\]]*\]|\([^)]*\))?\s*:\s+(\S.*)$")
 VOICE_TAG = re.compile(r"<v(?:\.[\w.-]+)?\s+([^>]+)>")
 TAG = re.compile(r"<[^>]+>")
+MARKUP_LABEL = re.compile(r"^(?:[>*-]\s+)?(\*\*|__|\*|_)(.{1,45}?)\1")
+
+
+def unmark(line):
+    """'**Dana:** text' and '**Dana**: text' become 'Dana: text', so Markdown transcripts keep their speakers."""
+    return MARKUP_LABEL.sub(lambda m: m.group(2), line, count=1)
 
 
 def slug(text):
@@ -67,7 +73,7 @@ def parse_cues(raw):
         if voice:
             speaker, line = voice.group(1).strip(), TAG.sub("", line)
         else:
-            named = SPEAKER_LINE.match(line)
+            named = SPEAKER_LINE.match(unmark(line))
             if named:
                 speaker, line = named.group(1).strip(), named.group(2)
         pairs.append((speaker, line))
@@ -76,7 +82,7 @@ def parse_cues(raw):
 
 def parse_plain(raw):
     """Plain text: use 'Name: words' lines when the file has them, otherwise paragraphs."""
-    lines = [l.strip() for l in raw.splitlines() if l.strip()]
+    lines = [unmark(l.strip()) for l in raw.splitlines() if l.strip()]
     labelled = sum(1 for l in lines if SPEAKER_LINE.match(l))
     if lines and labelled / len(lines) >= 0.3:
         pairs, speaker = [], ""
